@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="asdgargergWEGF"/>
+    <TextView
+        android:id="@+id/photocount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="(104)"
+        android:gravity="right"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+   <!-- <View
+        android:id="@+id/selected_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff00ff"
+         />-->
+
+</RelativeLayout>

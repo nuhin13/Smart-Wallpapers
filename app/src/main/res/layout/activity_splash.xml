@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/mainnewlogo"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+
+  <!-- <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Please Wait......"
+       android:textColor="@color/white"
+       android:textSize="20sp"
+       android:layout_alignParentBottom="true"
+       android:layout_alignLeft="@+id/imageView"
+       android:layout_alignStart="@+id/imageView"
+
+       android:layout_marginBottom="70dp"
+       android:layout_marginLeft="70dp"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true"
+       android:id="@+id/textView" />-->
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+
+        android:visibility="visible"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+
+
+</RelativeLayout>
